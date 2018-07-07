@@ -1,0 +1,69 @@
+﻿@model PakTech.Models.contact
+@{ 
+    Layout = "~/Views/Shared/_LayoutTheme.cshtml";
+}
+
+<link rel="stylesheet" type="text/css" href="~/Theme/styles/contact.css">
+<link rel="stylesheet" type="text/css" href="~/Theme/styles/contact_responsive.css">
+
+<div class="contact">
+
+    <!-- Contact Map -->
+
+    
+
+    <!-- Contact Info -->
+
+    <div class="contact_info_container">
+        <div class="container">
+            <div class="row">
+
+                <!-- Contact Form -->
+                <div class="col-lg-6">
+                    <div class="contact_form">
+                        <div class="contact_info_title">Contact Form</div>
+                        <form action="#" method="post" class="comment_form">
+                            <div>
+                                <div class="form_title">Name</div>
+                                <input name="Name" type="text" class="comment_input" required="required">
+                            </div>
+                            <div>
+                                <div class="form_title">Phone</div>
+                                <input name="Phone" type="text" class="comment_input" required="required">
+                            </div>
+                            <div>
+                                <div class="form_title">Email</div>
+                                <input name="Email" type="email" class="comment_input" required="required">
+                            </div>
+                            <div>
+                                <div class="form_title">Message</div>
+                                <textarea name="Message" class="comment_input comment_textarea" required="required"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="comment_button trans_200">submit now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-lg-6">
+                    <div class="contact_info">
+                        <div class="contact_info_title">Contact Info</div>
+                        
+                        <div class="contact_info_location">
+                            <div class="contact_info_location_title">Lahore</div>
+                            <ul class="location_list">
+                                <li>664 Neelam block Allama Iqbal Town Lahore</li>
+                                <li>03034116448</li>
+                                <li>03405555679</li>
+                                <li>Tariqjaffar8@gmail.com</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
