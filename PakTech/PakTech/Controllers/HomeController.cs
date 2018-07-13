@@ -54,5 +54,13 @@ namespace PakTech.Controllers
             
             return View(crs);
         }
+        public ActionResult events()
+        {
+
+
+            return View(db.Events.ToList());
+        }
+        
+        
     }
 }

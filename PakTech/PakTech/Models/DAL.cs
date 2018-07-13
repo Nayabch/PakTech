@@ -11,6 +11,8 @@ namespace PakTech.Models
         public DbSet<Course> Course { get; set; }
         public DbSet<catagory> catagory { get; set; }
         public DbSet<contact> contact { get; set; }
+        public DbSet<Events> Events { get; set; }
 
+       
     }
 }
